@@ -1,5 +1,34 @@
 # 🧠 Pulse Programming Language
 
+[![CI](https://github.com/garet113/pulse-lang/actions/workflows/ci.yml/badge.svg)](https://github.com/garet113/pulse-lang/actions/workflows/ci.yml)
+[![GitHub issues](https://img.shields.io/github/issues/garet113/pulse-lang)](https://github.com/garet113/pulse-lang/issues)
+[![GitHub stars](https://img.shields.io/github/stars/garet113/pulse-lang)](https://github.com/garet113/pulse-lang/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/garet113/pulse-lang/blob/main/LICENSE)
+
+**Pulse** is a reactive, time-native programming language where variables are alive and update automatically when their dependencies change.  
+With built-in time blocks (`@rate`, `@every`, `@after`, `@when`), Pulse unites dataflow, temporal logic, and real-time computation in one minimal language.
+
+---
+
+## ✨ Core Features
+
+- **Reactive by default:** every variable is a live signal.
+- **Time primitives:** `@rate`, `@every`, `@after`, and `@when`.
+- **Previous state:** use `~x` to reference the last value of `x`.
+- **Events:** `emit event(payload)` and `@when event(payload): { ... }`.
+- **Tiny runtime:** only ~500 lines of Python.
+
+---
+
+## 📦 Install (local dev)
+
+```bash
+python -m pip install -U pip
+python -m pip install -e .
+# Run
+pulse example.pulse
+# 🧠 Pulse Programming Language
+
 **Pulse** is a new experimental **time-aware, reactive-by-default** programming language.  
 Instead of waiting for inputs, Pulse variables *live and breathe* — they automatically update when their dependencies change.
 
