@@ -1,3 +1,5 @@
+![Pulse Programming Language](pulse_banner_optimized.png)
+
 # 🧠 Pulse Programming Language
 
 [![CI](https://github.com/garet113/pulse-lang/actions/workflows/ci.yml/badge.svg)](https://github.com/garet113/pulse-lang/actions/workflows/ci.yml)
