@@ -106,3 +106,4 @@ MIT License © 2025 [Garet Johnathan Palmer](https://github.com/garet113)
 ---
 
 **Website:** https://garet113.github.io/pulse-lang
+you can donate here :
