@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/css/styles.css"><title>Pulse Affective AI</title><div class="nav"><a href="./">Pulse</a><a href="quickstart.html">Quick Start</a><a href="affective-ai.html">Affective AI</a><a href="https://github.com/garet113/pulse-lang">GitHub</a></div><div class="container"><h1>Pulse Affective AI — Simulated Emotions</h1><div class="card"><b>Reality check:</b> simulated emotions for UX; no claim of consciousness.</div><h2>Model</h2><div class="card"><pre><code>let valence = 0.0
+let arousal = 0.2
+let empathy_drive = 0.7
+let calm_drive    = 0.6
+
+@rate 10Hz: {
+  valence = lerp(valence, 0.0, 0.03)
+  arousal = lerp(arousal, 0.2, 0.03)
+}</code></pre></div></div>

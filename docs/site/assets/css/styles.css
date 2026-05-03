@@ -1,0 +1,5 @@
+body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:#0b0b12;color:#e8e8ff}
+a{color:#7aa2ff} .container{max-width:960px;margin:0 auto;padding:24px} .nav{background:#141427;padding:14px 24px;display:flex;gap:16px;position:sticky;top:0}
+.card{background:#141427;border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:16px;margin:16px 0}
+pre,code{background:#0f1020;color:#d6e1ff;border-radius:8px;padding:10px;display:block;overflow:auto;white-space:pre-wrap}
+footer{color:#a6a6c9;margin:32px 0;text-align:center}
