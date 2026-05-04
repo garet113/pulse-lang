@@ -1,0 +1,8 @@
+# Should recompute b when a changes
+let a = 1
+let b = a * 2
+
+@every 1s: {
+  a = a + 1
+  print("a:", a, "b:", b)  # b should follow a*2
+}
