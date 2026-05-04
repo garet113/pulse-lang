@@ -1,0 +1,5 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/css/styles.css"><title>Pulse — Reactive, Time‑Native Language</title><div class="nav"><a href="./">Pulse</a><a href="quickstart.html">Quick Start</a><a href="affective-ai.html">Affective AI</a><a href="https://github.com/garet113/pulse-lang">GitHub</a></div><div class="container"><h1>Pulse — Reactive, Time‑Native Language</h1><div class="card"><p>Variables in Pulse are <b>alive</b> — they update automatically when dependencies change. Built-in time blocks (<code>@rate</code>, <code>@every</code>, <code>@after</code>, <code>@when</code>) make real-time code natural.</p><p><a href="quickstart.html">Get Started</a> · <a href="affective-ai.html">Affective AI Guide</a></p></div><div class="card"><pre><code>const TWO = 2
+let temp = sensor("temp")
+let hum  = sensor("hum")
+let comfort = smooth((temp*0.7)+(hum*0.3), 3)
+@rate 2Hz: { print("comfort:", comfort) }</code></pre></div><footer><small>MIT © 2025 garet113</small></footer></div>
