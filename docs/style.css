@@ -1,1 +1,2 @@
 body { background: #0b0b12; color: white; font-family: sans-serif; } .nav { background: #141427; padding: 15px; font-size: 20px; } .layout { display: flex; } .editor, .dashboard { width: 50%; padding: 20px; } textarea { width: 100%; height: 200px; background: #111; color: #0f0; } canvas { background: #111; border-radius: 10px; }
+ 
